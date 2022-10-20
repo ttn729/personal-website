@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       
       <Head>
-        <title>About -- Thomas Nguyen</title>
+        <title>Projects</title>
         <meta name="description" content="Thomas Nguyen personal page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -16,48 +16,36 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="http://localhost:3000">Thomas Nguyen</a>
+          <a href="https://personal-website-green-nine.vercel.app/">Thomas Nguyen</a>
         </h1>
 
         <div className={styles.grid}>
           <a href="https://spicy-chess-colors.netlify.app/" className={styles.card}>
             <h2>Chess Colors &rarr;</h2>
-            <p>Train your board vision with chess colors.</p>
+            <p>Train your board vision with by identifying the color of a random chess square.</p>
           </a>
-          <a href="https://spicy-chess-colors.netlify.app/" className={styles.card}>
-            <h2>Chess Colors &rarr;</h2>
-            <p>Train your board vision with chess colors.</p>
+          <a href="https://game-of-chance.vercel.app/" className={styles.card}>
+            <h2>A Game of Chance &rarr;</h2>
+            <p>Maximize points by guessing if a number Y is higher or lower than a number X.</p>
           </a>
-          <a href="https://spicy-chess-colors.netlify.app/" className={styles.card}>
-            <h2>Chess Colors &rarr;</h2>
-            <p>Train your board vision with chess colors.</p>
+          <a href="https://diffchecker-alpha.vercel.app/" className={styles.card}>
+            <h2>Difference Checker &rarr;</h2>
+            <p>Given two input text boxes, return their similiarity as a percentage.</p>
           </a>
-          <a href="https://spicy-chess-colors.netlify.app/" className={styles.card}>
-            <h2>Chess Colors &rarr;</h2>
-            <p>Train your board vision with chess colors.</p>
+          <a href="https://masoi.vercel.app/" className={styles.card}>
+            <h2>Ma Sói Helper &rarr;</h2>
+            <p>Randomize player names and roles.</p>
           </a>
-          <a href="https://spicy-chess-colors.netlify.app/" className={styles.card}>
-            <h2>Chess Colors &rarr;</h2>
-            <p>Train your board vision with chess colors.</p>
-          </a>
-          <a href="https://spicy-chess-colors.netlify.app/" className={styles.card}>
-            <h2>Chess Colors &rarr;</h2>
-            <p>Train your board vision with chess colors.</p>
-          </a>
-          <a href="https://spicy-chess-colors.netlify.app/" className={styles.card}>
-            <h2>Chess Colors &rarr;</h2>
-            <p>Train your board vision with chess colors.</p>
-          </a>
-          <a href="https://spicy-chess-colors.netlify.app/" className={styles.card}>
-            <h2>Chess Colors &rarr;</h2>
-            <p>Train your board vision with chess colors.</p>
+          <a href="https://spicy-chat.herokuapp.com/" className={styles.card}>
+            <h2>Chat Rooms &rarr;</h2>
+            <p>A free group web chat service.</p>
           </a>
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://personal-website-green-nine.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
         >
